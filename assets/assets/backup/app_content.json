@@ -1,0 +1,240 @@
+{
+  "HOME": {
+    "TOP_SECTION": {
+      "TOP_TEXT": "Hi, I am Junaid.",
+      "MID_TEXT": [
+        "A Developer",
+        "A Designer",
+        "A Visionary"
+      ],
+      "BOTTOM_TEXT": "I’m also a general doodler with a keen eye for creating engaging UI, bringing products to life."
+    },
+    "MID_SECTION": {
+      "TOP_TEXT": "I'm an app developer.",
+      "MID_TEXT": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "BOTTOM_TEXT": "I happily provide you with the experience and expertise required to bring your ideas to life."
+    },
+    "BOTTOM_SECTION": {
+      "data": [
+        {
+          "title": "Fast delivery",
+          "subtitle": "I offer fast delivery of your project as I understand urgency. I use a sprint-based process and am available to discuss any questions you have."
+        },
+        {
+          "title": "Sprint Based Process",
+          "subtitle": "Every project is broken down into three-week sprints with regular releases to ensure quality checks are done during every stage. You get an MVP in just 2 weeks because my process breaks everything down into digestible chunks."
+        },
+        {
+          "title": "Treating your app as my own",
+          "subtitle": "I treat your app like it's mine because it needs to be the best out there! I make sure to use up-to-date frameworks and follow best practices while coding so that you don't have to worry about any issues arising later on."
+        },
+        {
+          "title": "Quality, you can trust",
+          "subtitle": "You need someone that delivers on time, has a process which is sprint-based, and treats your app as his own. I have those things covered!"
+        },
+        {
+          "title": "Framework agnostic",
+          "subtitle": "Whether you're using Flutter or React Native, Native Android or Native iOS, I've got it covered! I guarantee maximum compatibility with all platforms."
+        }
+      ],
+      "TOP_TEXT": "Why should you hire me?"
+    }
+  },
+  "ABOUT": {
+    "TOP_SECTION": {
+      "IMAGE": "https://media-exp1.licdn.com/dms/image/D4D35AQE0Teqz3ZbZKQ/profile-framedphoto-shrink_400_400/0/1656063717913?e=1659049200&v=beta&t=Bb582RH5rpZSdt4bv9KI26HrQgZEA6vjPmXg4HQ_HYw",
+      "DESCRIPTION_TEXT": [
+        "I’m Junaid, a Developer working with Evamp&Saanga on their mobile products in Islamabad, Pakistan.",
+        "I’ve spent the past 3+ years working across different areas of digital designs; mobile app development, web design, app UI/UX, to my current role designing products for mobile platforms.",
+        "These days my time is spent researching, designing, prototyping, teching, and coding. I also help developers get started with their careers.",
+        "Out of the office you’ll find me playing video games, watching youtube tech videos, and petting all the good dogs."
+      ]
+    },
+    "MID_SECTION": {
+      "TOP_TEXT": "A brief history",
+      "HISTORY_ELEMENTS": [
+        {
+          "JOB_DESCRIPTION": "Team Lead Flutter Developer",
+          "COMPANY_NAME": "Evamp&Saanga",
+          "YEAR": "2021-"
+        },
+        {
+          "JOB_DESCRIPTION": "2D Animator & VFX Artist",
+          "COMPANY_NAME": "Crumbling Studio",
+          "YEAR": "2020-2021"
+        },
+        {
+          "JOB_DESCRIPTION": "UI/UX Designer",
+          "COMPANY_NAME": "Devtrest",
+          "YEAR": "2019-2020"
+        },
+        {
+          "JOB_DESCRIPTION": "Flutter Developer",
+          "COMPANY_NAME": "Auxility",
+          "YEAR": "2018-2019"
+        },
+        {
+          "JOB_DESCRIPTION": "Technical Support Specialist",
+          "COMPANY_NAME": "SupportKing",
+          "YEAR": "2016-2018"
+        }
+      ]
+    },
+    "BOTTOM_SECTION": {
+      "TOP_TEXT": "Currently reading",
+      "BOOK_ELEMENTS": [
+        {
+          "BOOK_IMAGE": "https://i.postimg.cc/kXYBPfPm/tim-cook.png",
+          "BOOK_NAME": "Tim Cook",
+          "BOOK_AUTHOR": "Leander Kahney"
+        },
+        {
+          "BOOK_IMAGE": "https://i.postimg.cc/Y9DxWQmB/alibaba.png",
+          "BOOK_NAME": "Alibaba",
+          "BOOK_AUTHOR": "Duncan Clark"
+        },
+        {
+          "BOOK_IMAGE": "https://i.postimg.cc/G26qfk3J/business-adventures.png",
+          "BOOK_NAME": "Business Adventures",
+          "BOOK_AUTHOR": "John Brooks"
+        }
+      ]
+    }
+  },
+  "ADVERTISING": {
+    "TITLE": "I occasionally take on freelance opportunities.",
+    "DESCRIPTION": [
+      "Have an exciting project where you need some help?",
+      "Send me over a message, and"
+    ],
+    "CALL_TO_ACTION": "let's chat."
+  },
+  "WORK": {
+    "ITEMS": [
+      {
+        "IMAGES": [
+          "https://i.postimg.cc/25hKGTzM/0.png",
+          "https://i.postimg.cc/ydKrb9xd/1.png",
+          "https://i.postimg.cc/HxtPDx8t/2.png"
+        ],
+        "TITLE": "Places Finder",
+        "DESCRIPTION": "If you're new to a city, it can be difficult to figure out where the best spots are. This app could help those who have just moved or are new to the city by providing an interactive map of all the places near them. I made this app to help me find the best spots near me. uses the google places API and a custom google maps theme."
+      },
+      {
+        "IMAGES": [
+          "https://i.postimg.cc/FK8Bg85j/0.png",
+          "https://i.postimg.cc/fyhq1dby/1.png",
+          "https://i.postimg.cc/TwbHk0fB/2.png"
+        ],
+        "TITLE": "Hacker News",
+        "DESCRIPTION": "A simple ad-free app that gathers stories and news from the most popular sites and presents it to the user."
+      },
+      {
+        "IMAGES": [
+          "https://i.postimg.cc/BQxfZxPq/0.png",
+          "https://i.postimg.cc/bwgXkpRW/1.png",
+          "https://i.postimg.cc/wjg817DD/2.png",
+          "https://i.postimg.cc/pdLwB4GT/3.png",
+          "https://i.postimg.cc/cJkVkh2c/4.png"
+        ],
+        "TITLE": "The Flu Prank",
+        "DESCRIPTION": "Worked with a part time comedian to bring his idea to life. Hysterical cough and flu sounds app to prank friends and enemies alike"
+      },
+      {
+        "IMAGES": [
+          "https://i.postimg.cc/50wSQNBF/0.png",
+          "https://i.postimg.cc/tCgFpzM6/1.png",
+          "https://i.postimg.cc/T2tW7D33/10.png",
+          "https://i.postimg.cc/vHjxMw9R/11.png",
+          "https://i.postimg.cc/Dz3WJQBB/12.png",
+          "https://i.postimg.cc/tJBPF1Y7/2.png",
+          "https://i.postimg.cc/cHNQWyp1/3.png",
+          "https://i.postimg.cc/7htGfpW2/4.png",
+          "https://i.postimg.cc/NfyLdCnd/5.png",
+          "https://i.postimg.cc/T1352RCx/6.png",
+          "https://i.postimg.cc/Hx27CJ03/7.png",
+          "https://i.postimg.cc/MZ51CLdx/8.png",
+          "https://i.postimg.cc/NfL2WjK7/9.png"
+        ],
+        "TITLE": "Optiva Self Care",
+        "DESCRIPTION": "State-of-the-art self-care app made in collaboration with the Canadian telecom provider Optiva. gives every user the ability to manage their telecom needs. has a powerful cloud-based powerful customizable theme engine. they are secured with state-of-the-art encryption. every element in the app is customizable from the cloud."
+      },
+      {
+        "IMAGES": [
+          "https://i.postimg.cc/ZY2MdCzC/0.png",
+          "https://i.postimg.cc/PqS6rqMf/1.png",
+          "https://i.postimg.cc/LXhxqMyt/2.png",
+          "https://i.postimg.cc/3w8STGmb/3.png",
+          "https://i.postimg.cc/Nj7JSD9H/4.png",
+          "https://i.postimg.cc/CMBvSSnY/5.png",
+          "https://i.postimg.cc/cHjXw5jV/6.png",
+          "https://i.postimg.cc/52MKsT0J/7.png",
+          "https://i.postimg.cc/vTVXztwD/8.png",
+          "https://i.postimg.cc/HsbB8zth/9.png"
+        ],
+        "TITLE": "TeC Sales Track",
+        "DESCRIPTION": "State-of-the-art human resource management system made in collaboration with Evamp&Saanga for their product division. has a powerful, cloud-based theme engine every UI element of the app is customizable via the cloud. equipped with a secure enclave and two-factor authentication"
+      },
+      {
+        "IMAGES": [
+          "https://i.postimg.cc/W4kFWWfG/0.png",
+          "https://i.postimg.cc/L6jmWdH6/1.png",
+          "https://i.postimg.cc/brT3GNxw/10.png",
+          "https://i.postimg.cc/nL2zwyGQ/11.png",
+          "https://i.postimg.cc/ZRjdp9M2/12.png",
+          "https://i.postimg.cc/7LKHNgq3/13.png",
+          "https://i.postimg.cc/MpbKvC4r/14.png",
+          "https://i.postimg.cc/L5c6122G/14-2.png",
+          "https://i.postimg.cc/HLvJLG81/2.png",
+          "https://i.postimg.cc/PfgwZk3t/3.png",
+          "https://i.postimg.cc/9fQRVXMB/4.png",
+          "https://i.postimg.cc/2jbWV5xc/5.png",
+          "https://i.postimg.cc/Dy1bPYH1/6.png",
+          "https://i.postimg.cc/br8mN225/7.png",
+          "https://i.postimg.cc/13xZ0vwh/8.png",
+          "https://i.postimg.cc/mrp49BSV/9.png"
+        ],
+        "TITLE": "Zama KP",
+        "DESCRIPTION": "App made for the Pakistani Government in collaboration with SNG (Sub-National Governance Programme). was created to solve the problem of tax collection for vehicles, property, etc"
+      }
+    ]
+  },
+  "CONTACT": {
+    "data": [
+      {
+        "imageURL": "assets/images/linkedin-icon-2.svg",
+        "title": "Connect via LinkedIn",
+        "subtitle": "Connect with me using LinkedIn.",
+        "destinationURL": "https://www.linkedin.com/in/junaid-tariq-263455120"
+      },
+      {
+        "imageURL": "assets/images/upwork-1.svg",
+        "title": "Hire via Upwork",
+        "subtitle": "Hire me for a project using Upwork",
+        "destinationURL": "https://www.upwork.com"
+      },
+      {
+        "imageURL": "assets/images/github-icon-1.svg",
+        "title": "Github Profile",
+        "subtitle": "Visit my Github profile",
+        "destinationURL": "https://github.com/junaiiiid"
+      },
+      {
+        "imageURL": "assets/images/stack-overflow.svg",
+        "title": "Stack Overflow Profile",
+        "subtitle": "Vist my StackOverflow profile",
+        "destinationURL": "https://stackoverflow.com/users/11933682/junaid-tariq"
+      },
+      {
+        "imageURL": "assets/images/udemy-3.svg",
+        "title": "Udemy Courses",
+        "subtitle": "Check out my Udemy Courses",
+        "destinationURL": "https://www.udemy.com/user/junaid-tariq-9/"
+      }
+    ]
+  }
+}
