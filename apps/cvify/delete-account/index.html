@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account & Data Deletion – CVify – AI Powered CV Builder – Flutter Ninja</title>
+  <meta name="description" content="Account & Data Deletion for CVify – AI Powered CV Builder.">
+  <meta name="robots" content="index, follow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#111111; --card:#191919; --green:#3DDC84; --blue:#4285F4;
+      --text:#DBE2EF; --muted:#a0a8b8; --border:rgba(255,255,255,0.08);
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:'Montserrat',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;display:flex;flex-direction:column}
+    a{color:inherit;text-decoration:none}
+    /* ── nav ── */
+    .sn{position:sticky;top:0;z-index:100;background:rgba(17,17,17,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;padding:0 40px;height:70px}
+    .sn-brand{font-size:1.1rem;font-weight:700;letter-spacing:.05em;color:var(--text)}
+    .sn-brand span{color:var(--green)}
+    .sn-links{display:flex;gap:8px}
+    .sn-links a{padding:8px 14px;border-radius:8px;font-size:.8rem;font-weight:600;letter-spacing:.08em;color:var(--muted);transition:.2s}
+    .sn-links a:hover{color:var(--green);background:rgba(61,220,132,.08)}
+    /* ── layout ── */
+    .sp-wrap{flex:1;max-width:860px;margin:0 auto;padding:60px 40px;width:100%}
+    .sp-bc{font-size:.85rem;color:var(--muted);margin-bottom:32px}
+    .sp-bc a{color:var(--green)}
+    .sp-hdr{margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}
+    .sp-hdr h1{font-size:2rem;font-weight:700;color:var(--text);margin-bottom:6px}
+    .sp-hdr .sp-app{font-size:1rem;color:var(--green);font-weight:600}
+    /* ── policy content ── */
+    .sp-body{color:var(--text);line-height:1.9;font-size:.95rem}
+    .sp-body strong{color:#fff}
+    .sp-body p{margin-bottom:14px}
+    .sp-body ul{padding-left:22px;margin-bottom:14px}
+    .sp-body ul li{margin-bottom:6px}
+    .sp-body a{color:var(--green);text-decoration:underline}
+    .sp-body hr{border:none;border-top:1px solid var(--border);margin:24px 0}
+    /* ── delete-account card pass-through ── */
+    
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+          background: #0C1220;
+          color: #E2E8F0;
+          min-height: 100vh;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 40px 20px;
+        }
+
+        .card {
+          background: rgba(255,255,255,0.04);
+          border: 1px solid rgba(255,255,255,0.08);
+          border-radius: 20px;
+          max-width: 600px;
+          width: 100%;
+          padding: 40px 36px;
+        }
+
+        .logo-row {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          margin-bottom: 32px;
+        }
+
+        .logo-icon {
+          width: 44px;
+          height: 44px;
+          background: linear-gradient(135deg, #65DB83, #4285F4);
+          border-radius: 12px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 22px;
+        }
+
+        .logo-text {
+          font-size: 22px;
+          font-weight: 700;
+          color: #fff;
+          letter-spacing: -0.3px;
+        }
+
+        h1 {
+          font-size: 24px;
+          font-weight: 700;
+          color: #fff;
+          margin-bottom: 8px;
+          letter-spacing: -0.3px;
+        }
+
+        .subtitle {
+          font-size: 15px;
+          color: rgba(226,232,240,0.55);
+          margin-bottom: 36px;
+          line-height: 1.5;
+        }
+
+        .section-label {
+          font-size: 10px;
+          font-weight: 600;
+          letter-spacing: 1.2px;
+          color: rgba(226,232,240,0.35);
+          text-transform: uppercase;
+          margin-bottom: 12px;
+        }
+
+        .steps {
+          list-style: none;
+          margin-bottom: 32px;
+        }
+
+        .steps li {
+          display: flex;
+          align-items: flex-start;
+          gap: 14px;
+          padding: 14px 0;
+          border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+
+        .steps li:last-child { border-bottom: none; }
+
+        .step-num {
+          width: 28px;
+          height: 28px;
+          min-width: 28px;
+          background: rgba(101,219,131,0.12);
+          border: 1px solid rgba(101,219,131,0.25);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 12px;
+          font-weight: 700;
+          color: #65DB83;
+          margin-top: 1px;
+        }
+
+        .step-text {
+          font-size: 14px;
+          line-height: 1.55;
+          color: #E2E8F0;
+        }
+
+        .step-text strong {
+          color: #fff;
+          font-weight: 600;
+        }
+
+        .info-box {
+          background: rgba(101,219,131,0.06);
+          border: 1px solid rgba(101,219,131,0.18);
+          border-radius: 12px;
+          padding: 16px 18px;
+          margin-bottom: 32px;
+        }
+
+        .info-box p {
+          font-size: 13px;
+          line-height: 1.6;
+          color: rgba(226,232,240,0.75);
+        }
+
+        .info-box p + p { margin-top: 8px; }
+
+        .data-list {
+          margin-bottom: 32px;
+        }
+
+        .data-item {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          padding: 10px 0;
+          border-bottom: 1px solid rgba(255,255,255,0.06);
+          font-size: 14px;
+          color: rgba(226,232,240,0.75);
+        }
+
+        .data-item:last-child { border-bottom: none; }
+
+        .dot {
+          width: 6px;
+          height: 6px;
+          min-width: 6px;
+          border-radius: 50%;
+          background: #FF6B72;
+        }
+
+        .contact-box {
+          background: rgba(255,255,255,0.03);
+          border: 1px solid rgba(255,255,255,0.07);
+          border-radius: 12px;
+          padding: 18px 20px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 16px;
+          flex-wrap: wrap;
+        }
+
+        .contact-box p {
+          font-size: 13px;
+          color: rgba(226,232,240,0.55);
+          line-height: 1.5;
+        }
+
+        .contact-box a {
+          font-size: 14px;
+          font-weight: 600;
+          color: #65DB83;
+          text-decoration: none;
+          white-space: nowrap;
+        }
+
+        .contact-box a:hover { text-decoration: underline; }
+
+        footer {
+          margin-top: 32px;
+          font-size: 12px;
+          color: rgba(226,232,240,0.25);
+          text-align: center;
+        }
+    
+    /* ── footer ── */
+    .sf{background:var(--card);border-top:1px solid var(--border);padding:28px 40px;text-align:center;font-size:.82rem;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <nav class="sn">
+    <a href="/" class="sn-brand">Flutter<span>Ninja</span></a>
+    <div class="sn-links">
+      <a href="/">HOME</a><a href="/work">WORK</a><a href="/about">ABOUT</a><a href="/contact">CONTACT</a>
+    </div>
+  </nav>
+
+  <div class="sp-wrap">
+    <p class="sp-bc"><a href="/">Home</a> / CVify – AI Powered CV Builder / Account & Data Deletion</p>
+    <div class="sp-hdr">
+      <h1>Account & Data Deletion</h1>
+      <p class="sp-app">CVify – AI Powered CV Builder</p>
+    </div>
+    <div class="">
+      <div class="card">
+
+          <div class="logo-row">
+              <div class="logo-icon">📄</div>
+              <span class="logo-text">CVify</span>
+          </div>
+
+          <h1>Account &amp; Data Deletion</h1>
+          <p class="subtitle">
+              You can delete your account and all associated data directly from inside
+              the CVify app in under a minute. No email required.
+          </p>
+
+          <!-- Steps -->
+          <p class="section-label">How to delete your account</p>
+          <ol class="steps">
+              <li>
+                  <div class="step-num">1</div>
+                  <div class="step-text">Open the <strong>CVify</strong> app and sign in to your account.</div>
+              </li>
+              <li>
+                  <div class="step-num">2</div>
+                  <div class="step-text">Tap the <strong>Profile</strong> tab at the bottom of the screen.</div>
+              </li>
+              <li>
+                  <div class="step-num">3</div>
+                  <div class="step-text">Tap <strong>Account</strong> from the profile menu.</div>
+              </li>
+              <li>
+                  <div class="step-num">4</div>
+                  <div class="step-text">Scroll to the bottom and tap <strong>Delete Account</strong>.</div>
+              </li>
+              <li>
+                  <div class="step-num">5</div>
+                  <div class="step-text">Confirm the deletion when prompted. Your account and all data will be permanently removed.</div>
+              </li>
+          </ol>
+
+          <!-- What gets deleted -->
+          <p class="section-label">What gets deleted</p>
+          <div class="data-list">
+              <div class="data-item"><div class="dot"></div>Your account credentials and profile information</div>
+              <div class="data-item"><div class="dot"></div>All CV profiles you have created</div>
+              <div class="data-item"><div class="dot"></div>All exported CV files and history</div>
+              <div class="data-item"><div class="dot"></div>Your credit balance and transaction history</div>
+              <div class="data-item"><div class="dot"></div>Any AI-generated content linked to your account</div>
+          </div>
+
+          <!-- Note -->
+          <div class="info-box">
+              <p>Deletion is <strong>permanent and irreversible</strong>. Once confirmed, your data cannot be recovered.</p>
+              <p>If you have an active Pro or Max subscription, cancel it on Google Play before deleting your account to avoid further charges. Deleting your account does not automatically cancel your subscription.</p>
+          </div>
+
+          <!-- Contact -->
+          <p class="section-label">Can't access the app?</p>
+          <div class="contact-box">
+              <p>If you no longer have access to the app or your account, email us and we will delete your data manually within 30 days.</p>
+              <a href="mailto:info@flutterninja.com">info@flutterninja.com</a>
+          </div>
+
+      </div>
+
+      <footer>
+          CVify · AI-Powered CV Builder · © 2026 Junaid Tariq
+      </footer>
+    </div>
+  </div>
+
+  <footer class="sf">© Copyrights by Flutter Ninja. All Rights Reserved.</footer>
+</body>
+</html>
