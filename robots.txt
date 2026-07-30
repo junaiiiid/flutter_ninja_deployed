@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://flutterninja.com
+Sitemap: https://flutterninja.com/sitemap.xml
